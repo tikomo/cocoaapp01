@@ -14,6 +14,7 @@
 		715C86421D25204D00B0BB6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715C86401D25204D00B0BB6E /* Main.storyboard */; };
 		715C864D1D25204D00B0BB6E /* cocoaapp01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C864C1D25204D00B0BB6E /* cocoaapp01Tests.m */; };
 		715C86581D25204D00B0BB6E /* cocoaapp01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 715C86571D25204D00B0BB6E /* cocoaapp01UITests.m */; };
+		717DBD451D2A1EAC00F7E2E7 /* IMG_0040.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 717DBD441D2A1EAC00F7E2E7 /* IMG_0040.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		715C86531D25204D00B0BB6E /* cocoaapp01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocoaapp01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		715C86571D25204D00B0BB6E /* cocoaapp01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoaapp01UITests.m; sourceTree = "<group>"; };
 		715C86591D25204D00B0BB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717DBD441D2A1EAC00F7E2E7 /* IMG_0040.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0040.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		715C86341D25204D00B0BB6E /* cocoaapp01 */ = {
 			isa = PBXGroup;
 			children = (
+				717DBD071D29FDD000F7E2E7 /* images */,
 				715C86351D25204D00B0BB6E /* AppDelegate.h */,
 				715C86361D25204D00B0BB6E /* AppDelegate.m */,
 				715C863B1D25204D00B0BB6E /* ViewController.h */,
@@ -135,6 +138,14 @@
 				715C86591D25204D00B0BB6E /* Info.plist */,
 			);
 			path = cocoaapp01UITests;
+			sourceTree = "<group>";
+		};
+		717DBD071D29FDD000F7E2E7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				717DBD441D2A1EAC00F7E2E7 /* IMG_0040.JPG */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717DBD451D2A1EAC00F7E2E7 /* IMG_0040.JPG in Resources */,
 				715C863F1D25204D00B0BB6E /* Assets.xcassets in Resources */,
 				715C86421D25204D00B0BB6E /* Main.storyboard in Resources */,
 			);
@@ -489,6 +501,7 @@
 				715C865E1D25204D00B0BB6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		715C865F1D25204D00B0BB6E /* Build configuration list for PBXNativeTarget "cocoaapp01Tests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +510,7 @@
 				715C86611D25204D00B0BB6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		715C86621D25204D00B0BB6E /* Build configuration list for PBXNativeTarget "cocoaapp01UITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +519,7 @@
 				715C86641D25204D00B0BB6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
